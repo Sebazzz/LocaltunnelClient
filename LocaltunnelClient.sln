@@ -5,9 +5,14 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37F2B7C3-D81F-4EEA-89C1-26BBEE571EF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaltunnelClient", "src\LocaltunnelClient\LocaltunnelClient.csproj", "{95FABF89-B29A-4BE9-ABD2-46E8FAEF3B8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaltunnelClient", "src\LocaltunnelClient\LocaltunnelClient.csproj", "{95FABF89-B29A-4BE9-ABD2-46E8FAEF3B8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocaltunnelClient.Commandline", "src\LocaltunnelClient.Commandline\LocaltunnelClient.Commandline.csproj", "{356946D2-4CC3-46D5-8BFA-F399B4B6AF89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaltunnelClient.Commandline", "src\LocaltunnelClient.Commandline\LocaltunnelClient.Commandline.csproj", "{356946D2-4CC3-46D5-8BFA-F399B4B6AF89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{C02EE7AD-6EF4-4BC1-A87C-C0502C528235}"
+	ProjectSection(SolutionItems) = preProject
+		doc\Localtunnel-architecture.md = doc\Localtunnel-architecture.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
