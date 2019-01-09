@@ -3,7 +3,7 @@
 
 Localtunnel requires a server, where the website is proxied to, and a client which actually runs the website.
 
-This package is the .NET implementation of the client.
+This package is the .NET implementation of the client. Used for development purposes only.
 
 [![NuGet Version and Downloads count](https://buildstats.info/nuget/LocaltunnelClient?includePreReleases=true)](https://www.nuget.org/packages/LocaltunnelClient)
 
@@ -11,9 +11,18 @@ This package is the .NET implementation of the client.
 
 Works on .NET Standard 1.6 and higher. Split in a library and a command line utility.
 
-Separate command line client utility can be downloaded from the Github release page.
+### CLI
+This project also provides CLI. 
 
-Used for development purposes only.
+You can download the no-dependencies, standalone, deployment from the Github releases page.
+
+Or you can install it from the command-line if you have the .NET SDK installed:
+
+    dotnet tool install -g localtunnel
+
+Then run it by using:
+
+    localtunnel
 
 ## Building the project
 To build the project ensure you have:
@@ -37,3 +46,7 @@ This project is accepting contributions. Please keep the following guidelines in
 - Keep in line with the existing code style
 - Don't reformat existing code
 - Propose new features before creating pull requests to prevent disappointment
+
+## Attribution
+
+Tunnel by David Brossard from the Noun Project
