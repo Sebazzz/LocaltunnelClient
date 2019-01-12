@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LocaltunnelClient.Commandline": {
+      "commandName": "Project",
+      "commandLineArgs": "--verbose --local-port 5000 --domain netcore-test"
+    }
+  }
+}
